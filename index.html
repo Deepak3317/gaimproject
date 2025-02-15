@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CK Birla Group - Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="CK Birla Group Logo" class="logo">
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h1>Empowered by Innovation</h1>
+            <p>Worldclass Products, For Better Life</p>
+        </section>
+
+        <section class="content">
+            <div class="about">
+                <h2>About the CK Birla Group</h2>
+                <p>The CK Birla Group, with a revenue of over US $3 billion, is an Indian multinational conglomerate. 
+                With over 35,000 employees, the group operates 52 manufacturing facilities across India and the world, 
+                with a presence in diverse sectors including technology, automotive, home and building, and healthcare.</p>
+            </div>
+
+            <div class="press-releases">
+                <h2>Latest Press Releases</h2>
+                <ul>
+                    <li>Birlasoft Q2FY25 Revenue up 3.1% QoQ and 4.5% YoY to ₹13,682 Mn <span>24/10/2024</span></li>
+                    <li>CK Birla Group sells Orient Cement to Adani Group to focus on core businesses <span>22/10/2024</span></li>
+                    <li>Birlasoft Achieves AWS Competency in Manufacturing and Industrial Consulting <span>25/09/2024</span></li>
+                    <li>Birla Fertility & IVF further expands its network to 50 Clinics by acquiring BabyScience IVF <span>22/08/2024</span></li>
+                </ul>
+            </div>
+
+            <div class="careers">
+                <h2>Careers</h2>
+                <p>Joining the CK Birla Group means an opportunity to be part of the transformative growth journey of a 150-year-old business conglomerate.
+                A diversity of companies across industries offer a varied and engaging career, and a world-class working environment.</p>
+            </div>
+        </section>
+    </main>
+
+    <df-messenger
+      location="us-central1"
+      project-id="ckbirla-450912"
+      agent-id="266cce72-2f00-4207-880f-525432f7c8c9"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble chat-title="CK_Bot"></df-messenger-chat-bubble>
+    </df-messenger>
+
+    <script src="script.js"></script>
+</body>
+</html>
